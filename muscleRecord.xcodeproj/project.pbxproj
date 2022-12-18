@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD583531293B7FC900340F11 /* muscleRecordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD583530293B7FC900340F11 /* muscleRecordApp.swift */; };
+		FD583533293B7FC900340F11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD583532293B7FC900340F11 /* ContentView.swift */; };
+		FD583535293B7FCA00340F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD583534293B7FCA00340F11 /* Assets.xcassets */; };
+		FD583538293B7FCA00340F11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD583537293B7FCA00340F11 /* Preview Assets.xcassets */; };
+		FD6EF80B29447957005A4774 /* PageMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6EF80A29447957005A4774 /* PageMenu.swift */; };
+		FDAB0ECF29476E4A00CD4B23 /* PageMenuTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0ECE29476E4A00CD4B23 /* PageMenuTab.swift */; };
+		FDAB0ED1294785BF00CD4B23 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAB0ED0294785BF00CD4B23 /* DayView.swift */; };
+		FDB561FF2944278B00966CD7 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB561FE2944278B00966CD7 /* RecordView.swift */; };
+		FDB5620329442A6600966CD7 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5620229442A6600966CD7 /* ResultView.swift */; };
+		FDB56205294436F300966CD7 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB56204294436F300966CD7 /* AddButton.swift */; };
+		FDB5620929444BE400966CD7 /* SelectedMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5620829444BE400966CD7 /* SelectedMenuButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD58352D293B7FC900340F11 /* muscleRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muscleRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD583530293B7FC900340F11 /* muscleRecordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muscleRecordApp.swift; sourceTree = "<group>"; };
+		FD583532293B7FC900340F11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD583534293B7FCA00340F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD583537293B7FCA00340F11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD6EF80A29447957005A4774 /* PageMenu.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PageMenu.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		FDAB0ECE29476E4A00CD4B23 /* PageMenuTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMenuTab.swift; sourceTree = "<group>"; };
+		FDAB0ED0294785BF00CD4B23 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		FDB561FE2944278B00966CD7 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		FDB5620229442A6600966CD7 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		FDB56204294436F300966CD7 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		FDB5620829444BE400966CD7 /* SelectedMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedMenuButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD58352A293B7FC900340F11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD583524293B7FC900340F11 = {
+			isa = PBXGroup;
+			children = (
+				FD58352F293B7FC900340F11 /* muscleRecord */,
+				FD58352E293B7FC900340F11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD58352E293B7FC900340F11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD58352D293B7FC900340F11 /* muscleRecord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD58352F293B7FC900340F11 /* muscleRecord */ = {
+			isa = PBXGroup;
+			children = (
+				FDB561FD2944278000966CD7 /* View */,
+				FD583530293B7FC900340F11 /* muscleRecordApp.swift */,
+				FD6EF8072944784C005A4774 /* PageMenu */,
+				FD583534293B7FCA00340F11 /* Assets.xcassets */,
+				FD583536293B7FCA00340F11 /* Preview Content */,
+			);
+			path = muscleRecord;
+			sourceTree = "<group>";
+		};
+		FD583536293B7FCA00340F11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD583537293B7FCA00340F11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD6EF8072944784C005A4774 /* PageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FD6EF80A29447957005A4774 /* PageMenu.swift */,
+				FDAB0ECE29476E4A00CD4B23 /* PageMenuTab.swift */,
+			);
+			path = PageMenu;
+			sourceTree = "<group>";
+		};
+		FDB561FD2944278000966CD7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FD583532293B7FC900340F11 /* ContentView.swift */,
+				FDB561FE2944278B00966CD7 /* RecordView.swift */,
+				FDB5620229442A6600966CD7 /* ResultView.swift */,
+				FDB56204294436F300966CD7 /* AddButton.swift */,
+				FDB5620829444BE400966CD7 /* SelectedMenuButton.swift */,
+				FDAB0ED0294785BF00CD4B23 /* DayView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD58352C293B7FC900340F11 /* muscleRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD58353B293B7FCA00340F11 /* Build configuration list for PBXNativeTarget "muscleRecord" */;
+			buildPhases = (
+				FD583529293B7FC900340F11 /* Sources */,
+				FD58352A293B7FC900340F11 /* Frameworks */,
+				FD58352B293B7FC900340F11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = muscleRecord;
+			productName = muscleRecord;
+			productReference = FD58352D293B7FC900340F11 /* muscleRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD583525293B7FC900340F11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FD58352C293B7FC900340F11 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = FD583528293B7FC900340F11 /* Build configuration list for PBXProject "muscleRecord" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD583524293B7FC900340F11;
+			productRefGroup = FD58352E293B7FC900340F11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD58352C293B7FC900340F11 /* muscleRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD58352B293B7FC900340F11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD583538293B7FCA00340F11 /* Preview Assets.xcassets in Resources */,
+				FD583535293B7FCA00340F11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD583529293B7FC900340F11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD583533293B7FC900340F11 /* ContentView.swift in Sources */,
+				FDB5620929444BE400966CD7 /* SelectedMenuButton.swift in Sources */,
+				FD6EF80B29447957005A4774 /* PageMenu.swift in Sources */,
+				FDB5620329442A6600966CD7 /* ResultView.swift in Sources */,
+				FDAB0ED1294785BF00CD4B23 /* DayView.swift in Sources */,
+				FDAB0ECF29476E4A00CD4B23 /* PageMenuTab.swift in Sources */,
+				FDB561FF2944278B00966CD7 /* RecordView.swift in Sources */,
+				FDB56205294436F300966CD7 /* AddButton.swift in Sources */,
+				FD583531293B7FC900340F11 /* muscleRecordApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD583539293B7FCA00340F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD58353A293B7FCA00340F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD58353C293B7FCA00340F11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"muscleRecord/Preview Content\"";
+				DEVELOPMENT_TEAM = B9WD868NNN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.muscleRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD58353D293B7FCA00340F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"muscleRecord/Preview Content\"";
+				DEVELOPMENT_TEAM = B9WD868NNN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = emiri.muscleRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD583528293B7FC900340F11 /* Build configuration list for PBXProject "muscleRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD583539293B7FCA00340F11 /* Debug */,
+				FD58353A293B7FCA00340F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD58353B293B7FCA00340F11 /* Build configuration list for PBXNativeTarget "muscleRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD58353C293B7FCA00340F11 /* Debug */,
+				FD58353D293B7FCA00340F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD583525293B7FC900340F11 /* Project object */;
+}
