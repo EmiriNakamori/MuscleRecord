@@ -48,9 +48,9 @@ struct RecordView: View {
     ]
     var body: some View {
         ZStack {
-            GeometryReader { reader in
+            GeometryReader { geometry in
                 Color.blue
-                    .frame(height: reader.safeAreaInsets.top, alignment: .top)
+                    .frame(height: geometry.safeAreaInsets.top, alignment: .top)
                     .ignoresSafeArea()
             }
             Color.blue

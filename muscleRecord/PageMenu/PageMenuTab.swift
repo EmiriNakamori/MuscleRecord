@@ -80,7 +80,6 @@ struct PageMenuRoundedCorners: View {
             .fill(self.color)
         }
     }
-
 }
 
 struct PageMenuTab_Previews: PreviewProvider {
@@ -97,7 +96,6 @@ struct PageMenuTab_Previews: PreviewProvider {
                     PageMenuTab(title: "日", background: .blue)
                 }
             }
-
         }
     }
 }

@@ -13,9 +13,9 @@ struct PageMenuItem {
     var content: AnyView
 
     init<Content: View>(title: String, color: Color, content: Content) {
-      self.title = title
-      self.color = color
-      self.content = AnyView(content)
+        self.title = title
+        self.color = color
+        self.content = AnyView(content)
     }
 }
 
@@ -28,41 +28,43 @@ struct PageMenu: View {
         self.items = items
     }
     var body: some View {
-        ScrollViewReader { proxy in
-            ScrollView(.horizontal, showsIndicators: false) {
-                VStack(spacing: 0) {
-                    HStack(alignment: .bottom, spacing: 0) {
-                        ForEach(0..<items.count, id: \.self) { index in
-                            Spacer()
-                            PageMenuTab(
-                                title: items[index].title,
-                                background: items[index].color,
-                                active: index == selection) {
-                                    selection = index
-                                    withAnimation {
-                                        proxy.scrollTo(index)
+        ZStack {
+            ScrollViewReader { proxy in
+                ScrollView(.horizontal, showsIndicators: false) {
+                    VStack(spacing: 0) {
+                        HStack(alignment: .center, spacing: 0) {
+                            ForEach(0..<items.count, id: \.self) { index in
+                                PageMenuTab(
+                                    title: items[index].title,
+                                    background: items[index].color,
+                                    active: index == selection) {
+                                        selection = index
+                                        withAnimation {
+                                            proxy.scrollTo(index)
+                                        }
                                     }
-                                }
-                                .id(index)
+                                    .id(index)
+                            }
                         }
-                    }
-                }
+                        TabView(selection: $selection) {
+                            ForEach(0..<items.count, id: \.self) {
+                                items[$0].content.tag($0)
+                            }
+                        }
+                        .onChange(of: selection) { index in
+                            withAnimation {
+                                proxy.scrollTo(index)
+                            }
+                        }
+                        .tabViewStyle(.page)
+                        .menuIndicator(.hidden)
+                        .animation(.easeOut(duration: 0.2), value: selection)
 
-                TabView(selection: $selection) {
-                    ForEach(0..<items.count, id: \.self) {
-                        items[$0].content.tag($0)
                     }
                 }
-                .onChange(of: selection) { index in
-                    withAnimation {
-                        proxy.scrollTo(index)
-                    }
-                }
-                .tabViewStyle(.page)
-                .menuIndicator(.hidden)
-                .animation(.easeOut(duration: 0.2), value: selection)
             }
         }
+
     }
 
 }
