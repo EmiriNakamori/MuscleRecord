@@ -8,62 +8,46 @@
 import SwiftUI
 
 struct RecordView: View {
-    @State private var selection = 0
-    let items = [
-        PageMenuItem(
-            title: "月",
-            color: .blue,
-            content: DayView()
-        ),
-        PageMenuItem(
-            title: "火",
-            color: .blue,
-            content: DayView()
-        ),
-        PageMenuItem(
-            title: "水",
-            color: .blue,
-            content: DayView()
-        ),
-        PageMenuItem(
-            title: "木",
-            color: .blue,
-            content: DayView()
-        ),
-        PageMenuItem(
-            title: "金",
-            color: .blue,
-            content: DayView()
-        ),
-        PageMenuItem(
-            title: "土",
-            color: .blue,
-            content: DayView()
-        ),
-        PageMenuItem(
-            title: "日",
-            color: .blue,
-            content: DayView()
-        )
-    ]
+    @State private var selectedIndex = 0
+
     var body: some View {
-        ZStack {
-            GeometryReader { geometry in
-                Color.blue
-                    .frame(height: geometry.safeAreaInsets.top, alignment: .top)
-                    .ignoresSafeArea()
+        VStack {
+            Picker("", selection: self.$selectedIndex) {
+                        Text("カレンダー")
+                            .tag(0)
+                        Text("グラフ")
+                            .tag(1)
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+
+            if selectedIndex == 0 {
+                CalendarView()
+            } else {
+                GraphView()
             }
-            Color.blue
-            PageMenu(selection: $selection, items: items)
-                .padding(.top, 50)
-            VStack {
-                Text("１.上がカレンダーでスクロールできる")
-                Text("2.メニュー登録の一覧が見れる")
-                Text("3.記録画面に遷移できるボタン用意")
-                Text("DBはFireStoreを使う")
-            }
-            AddButton()
         }
+
+    }
+
+    // SegmentedPicker Custom
+    init() {
+        guard let font = UIFont(name: "AvenirNext-Medium", size: 16) else {
+            return
+        }
+        let whiteColor = UIColor.white
+        let blueColor = UIColor.systemBlue
+
+        UISegmentedControl.appearance().selectedSegmentTintColor = whiteColor
+        UISegmentedControl.appearance().backgroundColor = blueColor
+
+        UISegmentedControl.appearance().setTitleTextAttributes([
+            .font: font,
+            .foregroundColor: whiteColor,
+        ], for: .normal)
+        UISegmentedControl.appearance().setTitleTextAttributes([
+                    .font: font,
+                    .foregroundColor: blueColor,
+                ], for: .selected)
     }
     
 }
