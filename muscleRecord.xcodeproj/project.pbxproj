@@ -15,6 +15,7 @@
 		FD611C2829669E74003C3926 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD611C2629669E74003C3926 /* RecordViewController.xib */; };
 		FD611C2A2966CE2B003C3926 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611C292966CE2B003C3926 /* CalendarView.swift */; };
 		FD611C2E2966D415003C3926 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611C2D2966D415003C3926 /* GraphView.swift */; };
+		FD7B6DCF298D0E19004E22D8 /* TrainingRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */; };
 		FDB561FF2944278B00966CD7 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB561FE2944278B00966CD7 /* RecordView.swift */; };
 		FDB5620329442A6600966CD7 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5620229442A6600966CD7 /* ResultView.swift */; };
 		FDB56205294436F300966CD7 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB56204294436F300966CD7 /* AddButton.swift */; };
@@ -31,6 +32,7 @@
 		FD611C2629669E74003C3926 /* RecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
 		FD611C292966CE2B003C3926 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		FD611C2D2966D415003C3926 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRecordView.swift; sourceTree = "<group>"; };
 		FDB561FE2944278B00966CD7 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		FDB5620229442A6600966CD7 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		FDB56204294436F300966CD7 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				FDB5620829444BE400966CD7 /* SelectedMenuButton.swift */,
 				FD611C292966CE2B003C3926 /* CalendarView.swift */,
 				FD611C2D2966D415003C3926 /* GraphView.swift */,
+				FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				FD583533293B7FC900340F11 /* ContentView.swift in Sources */,
 				FDB5620929444BE400966CD7 /* SelectedMenuButton.swift in Sources */,
 				FD611C2E2966D415003C3926 /* GraphView.swift in Sources */,
+				FD7B6DCF298D0E19004E22D8 /* TrainingRecordView.swift in Sources */,
 				FD611C2A2966CE2B003C3926 /* CalendarView.swift in Sources */,
 				FDB5620329442A6600966CD7 /* ResultView.swift in Sources */,
 				FD611C2729669E74003C3926 /* RecordViewController.swift in Sources */,

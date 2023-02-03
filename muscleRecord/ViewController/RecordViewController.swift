@@ -20,7 +20,7 @@ class RecordViewController: UIViewController {
     }
 
     private func setUpSegmentedControl() {
-        guard let segmentedControl = segmentedControl else {
+        guard segmentedControl != nil else {
             return
         }
 

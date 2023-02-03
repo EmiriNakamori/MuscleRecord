@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct CalendarView: View {
+
+    @State private var date = Date()
     var body: some View {
-        List(0..<5) { item in
-            Text("list of 5 item")
+        VStack {
+            DatePicker(
+                "Start Date",
+                selection: $date,
+                displayedComponents: [.date]
+            )
+            .datePickerStyle(.graphical)
+            .environment(\.locale, Locale(identifier: "ja_JP"))
+            .scaleEffect(x: 0.9, y: 0.9)
+            TrainingRecordView()
         }
     }
 }
