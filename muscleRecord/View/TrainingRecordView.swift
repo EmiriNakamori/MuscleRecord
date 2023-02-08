@@ -29,13 +29,13 @@ struct TrainingRecordView: View {
                 }
             }
             .font(.system(size: 20))
-            .listStyle(.sidebar)
         }
-            .frame(width: 350, height: 250)
+        .frame(width: 350, height: 250)
             .background(Color.white)
             .clipped()
             .cornerRadius(20)
             .shadow(color: .gray.opacity(0.7), radius: 5, x: 10, y: 10)
+
     }
 }
 

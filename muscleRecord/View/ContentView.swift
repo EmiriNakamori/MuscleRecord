@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            RecordView()
+            MainView()
                 .tabItem {
                     VStack {
                         Image(systemName: "pencil.and.outline")
