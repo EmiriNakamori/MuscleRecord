@@ -2,19 +2,28 @@
 //  RecordView.swift
 //  muscleRecord
 //
-//  Created by nakamori on 2023/02/08.
+//  Created by nakamori on 2022/12/10.
 //
 
 import SwiftUI
 
 struct RecordView: View {
-    var body: some View {
-        ZStack {
-            Color.red
-            Text("記録画面です")
-        }
+    @State private var selectedIndex = 0
 
+    var body: some View {
+        NavigationView {
+            VStack {
+
+                if selectedIndex == 0 {
+                    CalendarView()
+                } else {
+                    GraphView()
+                }
+                AddButton()
+            }
+        }
     }
+    
 }
 
 struct RecordView_Previews: PreviewProvider {

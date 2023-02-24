@@ -16,7 +16,7 @@ struct AddButton: View {
                 Spacer()
                 HStack {
                     Spacer()
-                    NavigationLink(destination: RecordView(), tag: 1, selection: $page){
+                    NavigationLink(destination: SelectMenuView(), tag: 1, selection: $page){
                         EmptyView()
                     }
                         Button(action: {
