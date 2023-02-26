@@ -8,11 +8,15 @@
 import Foundation
 import FirebaseCore
 import FirebaseFirestore
+import FirebaseAuth
 
 final class RecordDataStore {
     static let shared = RecordDataStore()
+    let db = Firestore.firestore()
     func createUser(name: String) {
-        let db = Firestore.firestore()
+//        guard let uid = Auth.auth().currentUser?.uid else {
+//            return
+//        }
         guard let deviceId = UIDevice.current.identifierForVendor?.uuidString else {
             return
         }
@@ -31,7 +35,20 @@ final class RecordDataStore {
         }
     }
 
-    func sendRecord() {
-
+    func sendRecord(eventName: String) {
+//        guard let uid = Auth.auth().currentUser?.uid else {
+//            return
+//        }
+        let data: [String: Any] = [
+            "part": 2,
+            "event_name": eventName
+        ]
+        db.collection("users").document().collection("records").document().setData(data) { error in
+            if let error = error {
+                print("Error adding document: \(error)")
+            } else {
+                print("Success adding document")
+            }
+        }
     }
 }

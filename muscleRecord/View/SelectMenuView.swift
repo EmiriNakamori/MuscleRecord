@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct SelectMenuView: View {
+    @State private var isPresented: Bool = false
+    @State private var eventName = ""
     var body: some View {
-        ZStack {
-            Color.red
-            Text("記録画面です")
+        VStack {
+            TextField("種目", text: $eventName)
+                .frame(width: 200, height: 30)
+            Button(action: {
+                isPresented = true
+                RecordDataStore.shared.sendRecord(eventName: eventName)
+            }) {
+                Text("記録する")
+            }
+            .frame(width: 200, height: 30)
+            .background(Color.blue)
+            .foregroundColor(Color.white)
+            .fullScreenCover(isPresented: $isPresented) {
+                MainView()
+            }
         }
+
 
     }
 }
