@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06285814141A66B2DF3F5D53 /* Pods_muscleRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD73AA6DBC1074FEB24CF820 /* Pods_muscleRecord.framework */; };
+		FD11925129AB6C4E00EF505D /* RecordDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11925029AB6C4E00EF505D /* RecordDataStore.swift */; };
+		FD11925329AB6CCD00EF505D /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11925229AB6CCD00EF505D /* RecordViewModel.swift */; };
+		FD11925829AB7C7C00EF505D /* DateFormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11925729AB7C7C00EF505D /* DateFormatHelper.swift */; };
+		FD11925A29AB814800EF505D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11925929AB814800EF505D /* ProfileView.swift */; };
 		FD583531293B7FC900340F11 /* muscleRecordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD583530293B7FC900340F11 /* muscleRecordApp.swift */; };
 		FD583533293B7FC900340F11 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD583532293B7FC900340F11 /* MainView.swift */; };
 		FD583535293B7FCA00340F11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD583534293B7FCA00340F11 /* Assets.xcassets */; };
 		FD583538293B7FCA00340F11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD583537293B7FCA00340F11 /* Preview Assets.xcassets */; };
-		FD611C2729669E74003C3926 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611C2529669E74003C3926 /* RecordViewController.swift */; };
-		FD611C2829669E74003C3926 /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD611C2629669E74003C3926 /* RecordViewController.xib */; };
 		FD611C2A2966CE2B003C3926 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611C292966CE2B003C3926 /* CalendarView.swift */; };
 		FD611C2E2966D415003C3926 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611C2D2966D415003C3926 /* GraphView.swift */; };
 		FD7B6DCF298D0E19004E22D8 /* TrainingRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */; };
+		FD9979AF29AB617100821CC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD9979AE29AB617100821CC5 /* GoogleService-Info.plist */; };
 		FD9D93672993D88600060F4A /* SelectMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D93662993D88600060F4A /* SelectMenuView.swift */; };
 		FDB561FF2944278B00966CD7 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB561FE2944278B00966CD7 /* RecordView.swift */; };
 		FDB5620329442A6600966CD7 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5620229442A6600966CD7 /* ResultView.swift */; };
@@ -23,20 +27,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9510FD7DC010467416EC7148 /* Pods-muscleRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscleRecord.release.xcconfig"; path = "Target Support Files/Pods-muscleRecord/Pods-muscleRecord.release.xcconfig"; sourceTree = "<group>"; };
+		AD73AA6DBC1074FEB24CF820 /* Pods_muscleRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscleRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD11925029AB6C4E00EF505D /* RecordDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDataStore.swift; sourceTree = "<group>"; };
+		FD11925229AB6CCD00EF505D /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
+		FD11925729AB7C7C00EF505D /* DateFormatHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatHelper.swift; sourceTree = "<group>"; };
+		FD11925929AB814800EF505D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		FD58352D293B7FC900340F11 /* muscleRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = muscleRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD583530293B7FC900340F11 /* muscleRecordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muscleRecordApp.swift; sourceTree = "<group>"; };
 		FD583532293B7FC900340F11 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FD583534293B7FCA00340F11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD583537293B7FCA00340F11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FD611C2529669E74003C3926 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
-		FD611C2629669E74003C3926 /* RecordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
 		FD611C292966CE2B003C3926 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		FD611C2D2966D415003C3926 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRecordView.swift; sourceTree = "<group>"; };
+		FD9979AE29AB617100821CC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD9D93662993D88600060F4A /* SelectMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMenuView.swift; sourceTree = "<group>"; };
 		FDB561FE2944278B00966CD7 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		FDB5620229442A6600966CD7 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		FDB56204294436F300966CD7 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		FFB368935F2CA97C7AF400F5 /* Pods-muscleRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscleRecord.debug.xcconfig"; path = "Target Support Files/Pods-muscleRecord/Pods-muscleRecord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,17 +54,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06285814141A66B2DF3F5D53 /* Pods_muscleRecord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		616AE62291FC4E82B8245E03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFB368935F2CA97C7AF400F5 /* Pods-muscleRecord.debug.xcconfig */,
+				9510FD7DC010467416EC7148 /* Pods-muscleRecord.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6A960291C5CA5AE33249798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD73AA6DBC1074FEB24CF820 /* Pods_muscleRecord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD11924E29AB690F00EF505D /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				FD11925029AB6C4E00EF505D /* RecordDataStore.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		FD11924F29AB694500EF505D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD11925229AB6CCD00EF505D /* RecordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD11925629AB7C5600EF505D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FD11925729AB7C7C00EF505D /* DateFormatHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		FD583524293B7FC900340F11 = {
 			isa = PBXGroup;
 			children = (
 				FD58352F293B7FC900340F11 /* muscleRecord */,
 				FD58352E293B7FC900340F11 /* Products */,
+				616AE62291FC4E82B8245E03 /* Pods */,
+				E6A960291C5CA5AE33249798 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,9 +124,12 @@
 			isa = PBXGroup;
 			children = (
 				FDB561FD2944278000966CD7 /* View */,
-				FD611C2029669B77003C3926 /* ViewController */,
+				FD11924F29AB694500EF505D /* ViewModel */,
+				FD11924E29AB690F00EF505D /* DataStore */,
+				FD11925629AB7C5600EF505D /* Helper */,
 				FD583530293B7FC900340F11 /* muscleRecordApp.swift */,
 				FD583534293B7FCA00340F11 /* Assets.xcassets */,
+				FD9979AE29AB617100821CC5 /* GoogleService-Info.plist */,
 				FD583536293B7FCA00340F11 /* Preview Content */,
 			);
 			path = muscleRecord;
@@ -84,15 +141,6 @@
 				FD583537293B7FCA00340F11 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FD611C2029669B77003C3926 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				FD611C2529669E74003C3926 /* RecordViewController.swift */,
-				FD611C2629669E74003C3926 /* RecordViewController.xib */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		FD9D93682993DBE200060F4A /* Button */ = {
@@ -114,6 +162,7 @@
 				FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */,
 				FD9D93662993D88600060F4A /* SelectMenuView.swift */,
 				FD9D93682993DBE200060F4A /* Button */,
+				FD11925929AB814800EF505D /* ProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD58353B293B7FCA00340F11 /* Build configuration list for PBXNativeTarget "muscleRecord" */;
 			buildPhases = (
+				301B0F58BF81B3BF6E9C197F /* [CP] Check Pods Manifest.lock */,
 				FD583529293B7FC900340F11 /* Sources */,
 				FD58352A293B7FC900340F11 /* Frameworks */,
 				FD58352B293B7FC900340F11 /* Resources */,
+				5173CD6B74A26A09F568E2FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,12 +228,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD583538293B7FCA00340F11 /* Preview Assets.xcassets in Resources */,
+				FD9979AF29AB617100821CC5 /* GoogleService-Info.plist in Resources */,
 				FD583535293B7FCA00340F11 /* Assets.xcassets in Resources */,
-				FD611C2829669E74003C3926 /* RecordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		301B0F58BF81B3BF6E9C197F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-muscleRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5173CD6B74A26A09F568E2FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-muscleRecord/Pods-muscleRecord-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-muscleRecord/Pods-muscleRecord-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-muscleRecord/Pods-muscleRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD583529293B7FC900340F11 /* Sources */ = {
@@ -190,12 +283,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD583533293B7FC900340F11 /* MainView.swift in Sources */,
+				FD11925A29AB814800EF505D /* ProfileView.swift in Sources */,
 				FD611C2E2966D415003C3926 /* GraphView.swift in Sources */,
+				FD11925129AB6C4E00EF505D /* RecordDataStore.swift in Sources */,
 				FD9D93672993D88600060F4A /* SelectMenuView.swift in Sources */,
 				FD7B6DCF298D0E19004E22D8 /* TrainingRecordView.swift in Sources */,
 				FD611C2A2966CE2B003C3926 /* CalendarView.swift in Sources */,
 				FDB5620329442A6600966CD7 /* ResultView.swift in Sources */,
-				FD611C2729669E74003C3926 /* RecordViewController.swift in Sources */,
+				FD11925329AB6CCD00EF505D /* RecordViewModel.swift in Sources */,
+				FD11925829AB7C7C00EF505D /* DateFormatHelper.swift in Sources */,
 				FDB561FF2944278B00966CD7 /* RecordView.swift in Sources */,
 				FDB56205294436F300966CD7 /* AddButton.swift in Sources */,
 				FD583531293B7FC900340F11 /* muscleRecordApp.swift in Sources */,
@@ -255,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -309,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -321,6 +417,7 @@
 		};
 		FD58353C293B7FCA00340F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB368935F2CA97C7AF400F5 /* Pods-muscleRecord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -351,6 +448,7 @@
 		};
 		FD58353D293B7FCA00340F11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9510FD7DC010467416EC7148 /* Pods-muscleRecord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
