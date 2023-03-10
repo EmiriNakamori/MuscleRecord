@@ -10,5 +10,8 @@ target 'muscleRecord' do
   pod 'FirebaseAnalytics'
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'GoogleSignIn'
+  pod 'GoogleSignInSwift'
+  pod 'GoogleSignInSwiftSupport'
 
 end

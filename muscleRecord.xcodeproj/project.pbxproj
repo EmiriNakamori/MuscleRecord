@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06285814141A66B2DF3F5D53 /* Pods_muscleRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD73AA6DBC1074FEB24CF820 /* Pods_muscleRecord.framework */; };
+		FD07E88229BAA4D70048E96D /* GoogleSignInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07E88129BAA4D70048E96D /* GoogleSignInButtonView.swift */; };
 		FD11925129AB6C4E00EF505D /* RecordDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11925029AB6C4E00EF505D /* RecordDataStore.swift */; };
 		FD11925329AB6CCD00EF505D /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11925229AB6CCD00EF505D /* RecordViewModel.swift */; };
 		FD11925829AB7C7C00EF505D /* DateFormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11925729AB7C7C00EF505D /* DateFormatHelper.swift */; };
@@ -19,8 +20,8 @@
 		FD611C2A2966CE2B003C3926 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611C292966CE2B003C3926 /* CalendarView.swift */; };
 		FD611C2E2966D415003C3926 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD611C2D2966D415003C3926 /* GraphView.swift */; };
 		FD7B6DCF298D0E19004E22D8 /* TrainingRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */; };
-		FD9979AF29AB617100821CC5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD9979AE29AB617100821CC5 /* GoogleService-Info.plist */; };
 		FD9D93672993D88600060F4A /* SelectMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9D93662993D88600060F4A /* SelectMenuView.swift */; };
+		FDA0A10D29BAD976001863A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDA0A10C29BAD976001863A2 /* GoogleService-Info.plist */; };
 		FDB561FF2944278B00966CD7 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB561FE2944278B00966CD7 /* RecordView.swift */; };
 		FDB5620329442A6600966CD7 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB5620229442A6600966CD7 /* ResultView.swift */; };
 		FDB56205294436F300966CD7 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB56204294436F300966CD7 /* AddButton.swift */; };
@@ -29,6 +30,7 @@
 /* Begin PBXFileReference section */
 		9510FD7DC010467416EC7148 /* Pods-muscleRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscleRecord.release.xcconfig"; path = "Target Support Files/Pods-muscleRecord/Pods-muscleRecord.release.xcconfig"; sourceTree = "<group>"; };
 		AD73AA6DBC1074FEB24CF820 /* Pods_muscleRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_muscleRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07E88129BAA4D70048E96D /* GoogleSignInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInButtonView.swift; sourceTree = "<group>"; };
 		FD11925029AB6C4E00EF505D /* RecordDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDataStore.swift; sourceTree = "<group>"; };
 		FD11925229AB6CCD00EF505D /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewModel.swift; sourceTree = "<group>"; };
 		FD11925729AB7C7C00EF505D /* DateFormatHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatHelper.swift; sourceTree = "<group>"; };
@@ -41,11 +43,12 @@
 		FD611C292966CE2B003C3926 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		FD611C2D2966D415003C3926 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRecordView.swift; sourceTree = "<group>"; };
-		FD9979AE29AB617100821CC5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD9D93662993D88600060F4A /* SelectMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMenuView.swift; sourceTree = "<group>"; };
+		FDA0A10C29BAD976001863A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDB561FE2944278B00966CD7 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		FDB5620229442A6600966CD7 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		FDB56204294436F300966CD7 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		FDEDB85229AE64F20006F276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FFB368935F2CA97C7AF400F5 /* Pods-muscleRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-muscleRecord.debug.xcconfig"; path = "Target Support Files/Pods-muscleRecord/Pods-muscleRecord.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,13 +126,14 @@
 		FD58352F293B7FC900340F11 /* muscleRecord */ = {
 			isa = PBXGroup;
 			children = (
+				FDEDB85229AE64F20006F276 /* Info.plist */,
 				FDB561FD2944278000966CD7 /* View */,
 				FD11924F29AB694500EF505D /* ViewModel */,
 				FD11924E29AB690F00EF505D /* DataStore */,
 				FD11925629AB7C5600EF505D /* Helper */,
 				FD583530293B7FC900340F11 /* muscleRecordApp.swift */,
 				FD583534293B7FCA00340F11 /* Assets.xcassets */,
-				FD9979AE29AB617100821CC5 /* GoogleService-Info.plist */,
+				FDA0A10C29BAD976001863A2 /* GoogleService-Info.plist */,
 				FD583536293B7FCA00340F11 /* Preview Content */,
 			);
 			path = muscleRecord;
@@ -147,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				FDB56204294436F300966CD7 /* AddButton.swift */,
+				FD07E88129BAA4D70048E96D /* GoogleSignInButtonView.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 		FDB561FD2944278000966CD7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FD11925929AB814800EF505D /* ProfileView.swift */,
 				FD583532293B7FC900340F11 /* MainView.swift */,
 				FDB561FE2944278B00966CD7 /* RecordView.swift */,
 				FDB5620229442A6600966CD7 /* ResultView.swift */,
@@ -162,7 +168,6 @@
 				FD7B6DCE298D0E19004E22D8 /* TrainingRecordView.swift */,
 				FD9D93662993D88600060F4A /* SelectMenuView.swift */,
 				FD9D93682993DBE200060F4A /* Button */,
-				FD11925929AB814800EF505D /* ProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -228,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD583538293B7FCA00340F11 /* Preview Assets.xcassets in Resources */,
-				FD9979AF29AB617100821CC5 /* GoogleService-Info.plist in Resources */,
+				FDA0A10D29BAD976001863A2 /* GoogleService-Info.plist in Resources */,
 				FD583535293B7FCA00340F11 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +294,7 @@
 				FD9D93672993D88600060F4A /* SelectMenuView.swift in Sources */,
 				FD7B6DCF298D0E19004E22D8 /* TrainingRecordView.swift in Sources */,
 				FD611C2A2966CE2B003C3926 /* CalendarView.swift in Sources */,
+				FD07E88229BAA4D70048E96D /* GoogleSignInButtonView.swift in Sources */,
 				FDB5620329442A6600966CD7 /* ResultView.swift in Sources */,
 				FD11925329AB6CCD00EF505D /* RecordViewModel.swift in Sources */,
 				FD11925829AB7C7C00EF505D /* DateFormatHelper.swift in Sources */,
@@ -427,6 +433,7 @@
 				DEVELOPMENT_TEAM = B9WD868NNN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = muscleRecord/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,6 +465,7 @@
 				DEVELOPMENT_TEAM = B9WD868NNN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = muscleRecord/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
