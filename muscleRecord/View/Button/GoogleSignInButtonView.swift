@@ -11,13 +11,19 @@ import GoogleSignIn
 
 struct GoogleSignInButtonView: View {
 
+    @State private var isSignIn = false
     var body: some View {
-        Text("hallow")
+        Text("ログイン画面")
         Button {
             handleSignInButton()
+            isSignIn.toggle()
         } label: {
-            Text("aa")
+            SignInButton()
         }
+        .fullScreenCover(isPresented: $isSignIn) {
+            MainView()
+        }
+
     }
 }
 
@@ -26,12 +32,30 @@ func handleSignInButton() {
         return
     }
     GIDSignIn.sharedInstance.signIn(withPresenting: presentingViewController) { signInResult, error in
-        if error != nil {
-            print("ログイン失敗")
-        }
+        guard error == nil else { return }
+        guard let signInResult = signInResult else { return }
 
-        if signInResult != nil {
-            print("ログイン成功")
+        signInResult.user.refreshTokensIfNeeded { user, error in
+            guard error == nil else {
+                return
+            }
+            guard let user = user else {
+                return
+            }
+            guard let userToken = user.idToken?.tokenString else {
+                return
+            }
+            guard let userId = user.userID else {
+                return
+            }
+            guard let userName = user.profile?.name else {
+                return
+            }
+            let resultUser = User(userId: userId, userToken: userToken, userName: userName)
+            
+            RecordDataStore.shared.user = resultUser
+            RecordDataStore.shared.createUser(user: resultUser)
+            
         }
 
     }
